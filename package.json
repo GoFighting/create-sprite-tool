@@ -1,0 +1,20 @@
+{
+  "name": "sprite-tool",
+  "version": "1.0.0",
+  "description": "auto create sprite",
+  "main": "index.js",
+  "scripts": {
+    "sprite": "webpack --config ./webpack.config.js --progress --color -p"
+  },
+  "keywords": [
+    "sprite"
+  ],
+  "author": "Nine",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp.spritesmith": "^6.9.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-spritesmith": "^0.5.3"
+  }
+}
